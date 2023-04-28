@@ -1,0 +1,18 @@
+header {
+    width: 100%;
+    height: auto;
+    background-color: silver;
+    display: flex;
+    /* grid-template-columns: 5;
+    grid-template-rows: auto; */
+    justify-content: center;
+    align-content: center;
+}
+
+header a {
+    /* grid-column: 4; */
+}
+
+header img {
+   /* grid-column: 1 / span 2; */
+}
