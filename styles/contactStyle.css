@@ -1,0 +1,40 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-area: 2 / 1 / 9 / 10;
+    background-color: midnightblue;
+}
+
+main h1 {
+    grid-area: 1 / 1 / 2 / 10;
+    align-self: center;
+    justify-self: center;
+}
+
+main section {
+    grid-area: 2 / 1 / 6 / 5;
+    align-self: center;
+    justify-self: center;
+    border: solid 1px white;
+}
+
+main h2 {
+    grid-area: 2 / 1 / 4 / 4;
+    align-self: center;
+    justify-self: center;    
+}
+
+#letter {
+    grid-area: 2 / 5 / 4 / 10;
+    align-self: center;
+    /* justify-self: center; */
+    border: solid 1px white;
+}
+
+#call {
+    grid-area: 4 / 5 / 6 / 10;
+    align-self: center;
+    /* justify-self: center; */
+    border: solid 1px white;
+}

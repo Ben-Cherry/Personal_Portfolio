@@ -3,6 +3,7 @@
     <head>
         <title>Contact Me</title>
         <meta charset="utf-8">
+        <link href="./styles/contactStyle.css" rel="stylesheet">
         <link href="./styles/style.css" rel="stylesheet">
     </head>
     <body>
@@ -12,9 +13,9 @@
         </header>
         <main>
             <h1>Get in Touch!</h1>
-            <section>
+            <h2>By Email</h2>
+            <section>               
                 <form method="POST" action="mailto:bcherry14@outlook.com">
-                    <h2>By Email</h2>
                     <input type="text" name="firstName" id="firstName" Value="First Name" required><br>
                     <input type="text" name="lastName" id="lastName" value="Last Name" required><br>
                     <input type="text" name="userEmail" id="userEmail" value="Email" required><br>
@@ -22,11 +23,11 @@
                     <input type="submit" value="Submit">
                 </form>
             </section>
-            <aside>
+            <aside id="letter">
                 <h2>Send me a letter to:</h2>
                 <h3>57 Regent Street,<br>Wiltshire,<br>London,<br>LD63 8NR</h3>
             </aside>
-            <aside>
+            <aside id="call">
                 <h2>Or, try giving me a call!</h2>
                 <h3>Tel: 07865 298109</h3>
             </aside>
