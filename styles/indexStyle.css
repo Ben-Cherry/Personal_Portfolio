@@ -12,40 +12,126 @@
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(9, 1fr);
 }
-
 .projects h2 {
     grid-area: 1 / 2 / 2 / 10;
+    /* justify-self: center; */
+    align-self: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 70px;
+    color: white;
+    background-color: rgba(25, 25, 112, 1);
+    margin: 0;
+    padding-left: 20px;
 }
+
 
 #teaCozy {
     grid-area: 2 / 1 / 4 / 10;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(9, 1fr);   
+    grid-template-rows: repeat(8, 1fr);
+    background-color: silver;
+    z-index: -2;
 }
-
 #teaCozy h3 {
     grid-area: 1 / 1 / 2 / 10;
+    align-self: center;
+    justify-self: center;
+    font-family: 'Pacifico', 'Lobster', cursive;
+    font-size: 70px;
+    margin: 0;
 }
-
 #teaCozy h4:first-of-type {
-    grid-area: 2 / 1 / 3 / 10;
+    grid-area: 2 / 1 / 3 / 3;
+    justify-self: center;
+    align-self: center;
+    margin: 0;
+    font-family: 'Lobster', 'Pacifico', cursive;
+    font-size: 50px;
+    color: white;
 }
-
 #teaCozy p:first-of-type {
-    grid-area: 3 / 1 / 4 / 6;
+    grid-area: 3 / 1 / 5 / 6;
+    margin: 0;
+    margin-left: 10px;
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
 }
-
 #teaCozy img {
-    grid-area: 3 / 6 / 4 / 10;
+    grid-area: 2 / 6 / 9 / 10;
+    justify-self: center;
+    align-self: center;
+    height: auto;
+    width: 100%;
 }
-
 #teaCozy h4:nth-of-type(2) {
-    grid-area: 4 / 1 / 5 / 10;
+    grid-area: 5 / 1 / 6 / 3;
+    justify-self: center;
+    align-self: center;
+    margin: 0;
+    margin-left: 10px;
+    font-family: 'Lobster', 'Pacifico', cursive;
+    font-size: 50px;
+    color: white;
+}
+#teaCozy p:nth-of-type(2) {
+    grid-area: 6 / 1 / 7 / 6;
+    margin: 0;
+    margin-left: 10px;
+    align-self: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+}
+#teaCozy p:nth-of-type(3) {
+    grid-area: 7 / 1 / 8 / 6;
+    margin: 0;
+    margin-left: 10px;
+    align-self: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+}
+#teaCozy ul {
+    grid-area: 7 / 1 / 9 / 6;
+    margin: 0;
+    align-self: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+}
+#teaCozy strong {
+    font-weight: 400;
+    font-size: 35px;
+}
+#box {
+    grid-area: 2 / 1 / 9 / 10;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #virgoDragons {
     grid-area: 4 / 1 / 6 / 10;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    z-index: -2;
+    background-color: rgba(25, 25, 112, 1);
+}
+#virgoDragons h3 {
+    grid-area: 1 / 1 / 2 / 10;
+    align-self: center;
+    justify-self: center;
+    font-family: 'Lobster', 'Pacifico', cursive;
+    font-size: 70px;
+    margin: 0;
+    color: darkgray;
 }
 
 #martialArts {
