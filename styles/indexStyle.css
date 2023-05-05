@@ -33,6 +33,7 @@
     grid-template-rows: repeat(9, 1fr);
     background-color: silver;
     z-index: -2;
+    gap: 5px;
 }
 #teaCozy h3 {
     grid-area: 1 / 1 / 2 / 10;
@@ -116,6 +117,7 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+
 #virgoDragons {
     grid-area: 4 / 1 / 6 / 10;
     display: grid;
@@ -123,6 +125,7 @@
     grid-template-rows: repeat(7, 1fr);
     z-index: -2;
     background-color: rgba(192,192,192,1);
+    gap: 5px;
 }
 #virgoDragons h3 {
     grid-area: 1 / 1 / 2 / 10;
@@ -215,6 +218,7 @@
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(9, 1fr);
     background-color: rgba(192,192,192,1);
+    gap: 5px;
 }
 #martialArts h3 {
     grid-area: 1 / 1 / 2 / 10;
@@ -265,30 +269,47 @@
     justify-self: center;
 }
 #martialArts span:first-of-type {
-    grid-area: 4 / 1 / 6 / 2;
+    grid-area: 4 / 1 / 6 / 4;
     align-self: center;
 }
-#martialArts img:first-of-type {
-    grid-area: 4 / 2 / 6 / 10;
+#mediaBox {
+    grid-area: 5 / 1 / 6 / 10;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    flex-flow: row;
+}
+#media img {
+    /* display: flex; */
+    max-width: 33%;
+    max-height: 100%;
+}
+/* #martialArts img:first-of-type {
+    grid-area: 5 / 1 / 6 / 6;
     align-self: center;
-    justify-self: center;
+    justify-self: flex-start;
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
 #martialArts img:nth-of-type(2) {
-    grid-area: 6 / 6 / 7 / 10;
+    grid-area: 5 / 6 / 6 / 8;
     align-self: center;
     justify-self: center;
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
 #martialArts img:nth-of-type(3) {
-    grid-area: 7 / 1 / 8 / 3;
+    grid-area: 5 / 8 / 6 / 10;
     align-self: center;
-    justify-self: center;
+    justify-self: flex-end;
     width: 100%;
     height: auto;
-}
+    object-fit: cover;
+} */
 
 
 .graphics {
@@ -306,9 +327,9 @@
 
 
 
-
+/* 
 img {
     height: 100px;
     width: 100px;
-}
+} */
 
